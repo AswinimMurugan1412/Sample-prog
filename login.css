@@ -1,0 +1,123 @@
+@import url( 
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(30, 201, 223, 0.1);
+    text-align: center;
+}
+.logo{
+    color: #1a73e8;
+}
+.logo1{
+    color: #ff6f00;
+}
+
+.logo img {
+    max-width: 80%;
+    height: auto;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #2bbbd8;
+}
+
+.textbox {
+    margin-bottom: 5px;
+}
+
+.textbox input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #2fa8d1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.textbox input[type="email"],
+.textbox input[type="password"] {
+    width: calc(100% - 20px);
+}
+
+p {
+    font-size: 14px;
+    color: #2bbbd8;
+}
+
+.checkbox {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.checkbox label {
+    font-size: 14px;
+}
+
+.checkbox a {
+    color: #e8471a;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #ff6f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1ab5e8;
+    text-decoration: none;
+}
+
+.register {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #ff6f00;
+    text-decoration: none;
+    font-style: calc();
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
